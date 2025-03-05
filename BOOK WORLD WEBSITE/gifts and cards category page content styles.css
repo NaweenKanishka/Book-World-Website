@@ -1,0 +1,140 @@
+body {
+    padding: 0;
+    margin: 0;
+    background-color: rgb(240, 240, 240);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*HOME PAGE CONTENT MODOFICATIONS*/
+#gift-card-content{
+    max-width: 1400px;
+    margin: 0 auto;
+    
+}
+
+.category{
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+.items{
+    background-color: white;
+    width: 200px;
+    height: auto;
+    padding: 10px;
+    margin-bottom: 20px;
+    transition: 0.3s;
+    
+}
+.items:hover{
+    box-shadow: rgb(184, 175, 175) 0px 6px 8px;
+}
+
+.items img{
+    width: 200px;
+    height: auto;
+    
+}
+.limited-text-para{
+    margin: 0;
+    overflow: hidden;
+    overflow-y: auto;
+    word-wrap: break-word;
+    width: auto;
+   height: 100px;
+    text-overflow: ellipsis;
+    border-bottom: 1px solid rgb(236, 229, 229);
+}
+
+.items button{
+padding: 6px;
+border: 1px solid rgb(231, 225, 225);
+border-radius: 3px;
+}
+.items button:hover{
+    background-color: red;
+    color: white;
+}
+.Stationary-price{
+    background-color: rgb(224, 224, 224);
+    padding: 10px;
+}
+/*HOME PAGE CONTENT END*/
+
+
+/*STRART UP CONTENTS MODIFICATIOBS*/
+#bookworld-startup{
+    background-color: white;
+    padding-top: 160px;
+
+}
+.start-contents{
+display: flex;
+justify-content: center;
+align-items: center;
+gap: 30px;
+}
+.start-contents h1{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.sta-descriptions{
+    background-color: #ffffff;
+    
+    width: 600px;
+   
+    
+}
+.sta-descriptions p{
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.welcome{
+    font-size: 30px;
+    margin: 0;
+    padding: 0;
+}
+
+
+.start-contents img{
+    width: 600px;
+    border-radius: 80px 0;
+    
+}
+
+h1{
+    margin: 0;
+    font-size: 55px;
+    
+}
+
+.start-contents button{
+    padding: 20px;
+    border: none;
+    background-color: #a53baf;
+    font-size: 20px;
+    color: white;
+}
+
+/*afterheader-links*/
+.afterheader-links{
+    padding-bottom: 20px;
+    text-align: center;
+    background-color: #fcd7ff;
+    padding-top: 120px;
+    position: fixed;
+    width: 100%;
+    z-index: 999;
+
+    
+}
+
+.afterheader-links a{
+    padding: 10px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
